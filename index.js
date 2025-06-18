@@ -8,7 +8,7 @@ import bodyParser from "body-parser";
 const app = express();
 app.use(cors());
 app.use(bodyParser.json());
-
+console.log(process.env.BOG_CLIENT_ID, ':telephonis nomeri')
 // 1. Create Payment Endpoint
 app.post("/create-payment", async (req, res) => {
   try {
