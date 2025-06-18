@@ -2,6 +2,7 @@ import express from "express";
 import axios from "axios";
 import cors from "cors";
 import bodyParser from "body-parser";
+import 'dotenv/config';
 
 const app = express();
 app.use(cors());
